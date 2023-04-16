@@ -1,0 +1,81 @@
+body,
+html{
+	width: 100%%;
+	height: 115%;
+	font-family: georgia;
+	background-color: rgba(10, 20, 100, 0.1);
+	color: darkblue;
+	background: url(ak.jpg)no-repeat center center fixed;
+	background-size: cover;
+}
+h1{
+
+}
+.form-floating{
+	width: 50%;
+	margin: 10px 0px 0px 10px;
+	font-weight: 700;
+}
+.input-group{
+	width: 50.5%;
+}
+.btn-xl{
+	padding: 0.5rem 1rem;
+	font-weight: 700;
+	border-radius: 600px;
+}
+.btn-primary{
+	border-color: darkorchid;
+	background-color: darkorchid;
+}
+.btn-primary:hover{
+	background-color: lightcoral;
+	border-color: lightcorals;
+}
+.form-check{
+	margin: 0px 0px 0px 5px;
+	font-weight: 700;
+}
+span{
+	margin: 0px 0px 0px 5px;
+}
+.nationality{
+	margin: 0px 0px 0px 5px;
+}
+strong{
+	margin: 0px 0px 0px 5px;
+}
+button{
+	border-radius: 300px;
+	font-weight: 700;
+	background-color: darkred;
+	border-color: red;
+	color: white;
+	box-shadow: 3px 3px 3px red;
+	padding: 0.5rem 1rem;
+}
+.buffer{
+	height: 10px;
+}
+.blink{
+	color: darkred;
+}
+.home{
+	margin: 0px 0px 0px 5px;
+	font-weight: 700;
+}
+a{
+	color: darkred;
+	font-size: 120%;
+	text-decoration: none;
+}
+.nationality{
+	color: lightcoral;
+	border-radius: 300px;
+	padding: 0.5em 1rem;
+	font-weight: 700;
+}
+input{
+	margin: 0px 0px 0px 5px;
+	color: lightcoral;
+}

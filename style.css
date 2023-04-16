@@ -1,0 +1,45 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	background: url(mypic.jpg)no-repeat center center fixed;
+	background-size: cover;
+	font-family: Georgia;
+}
+
+
+p{
+	color: #ffffff;
+	font-weight: 700;
+	font-family: cursive;
+	font-size: 150%;
+}
+p:hover{
+	color:#1ae4b8;
+	font-size: 160%;
+}
+.tap{
+	color: darkred;
+}
+a{
+	text-decoration: none;
+}
+.color{
+	color: #ef0d0d;
+	font-weight: 700;
+	font-size: 3rem;
+}
+.btn-xl{
+	border-radius: 300px;
+	padding: 1rem 2rem;
+	font-weight: 700;
+	font-size: 120%;
+}
+.btn-primary{
+	background-color: #;
+	border-color: #;
+}
+.btn-primary:hover{
+	background-color: lightblue;
+	border-color: lightblue;
+}

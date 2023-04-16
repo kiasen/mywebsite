@@ -1,0 +1,73 @@
+body,
+html{
+/*	margin-top: 1px;*/
+	background-image: url(niceimage9.jpg)no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 202%;
+	background-color: rgba(3, 400, 500, 0.4);
+}
+h2{
+	border-bottom: 4px solid darkred;
+	border-right: 4px solid darkred;
+	background-color: lightgreen;
+	width: 230px;
+	box-shadow: 5px 5px 5px darkgrey;
+}
+span{
+	font-size: 2em;
+}
+p{
+	color: black;
+}
+.susa6{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	transition: all 1s;
+}
+img{
+	width: 400px;
+	height: 300px;
+	margin: 15px;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+li{
+	font-family: cursive;
+	border: 3px solid darkred;
+	width: 240px;
+	background-color: lightgreen;
+	line-height: 35px;
+}
+#popo1{
+	font-family: "Monotype Corsiva";;
+	font-size: 150%;
+}
+.susa{
+	border: 0px solid darkred;
+}
+footer{
+	text-align: center;
+}
+.papy{
+	width:600px;
+	height: 500px;
+}
+a{
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+	color: darkred;
+}
+.button{
+	background-color: darkred;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 300px;
+	border-color: darkred;
+	padding: 0.5rem 1rem;
+}

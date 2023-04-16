@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="stye2.css">
+</head>
+<body>
+	<p class="home"><a href="index.html"><strong><<<-Home</strong></a></p>
+<form method="GET" action="action.php">
+	<p class="buffer"></p>
+<h1 class="blink animate__animated animate__bounce animate__infinite"><strong>Login Here</strong></h1>
+	<div class="form-floating mb-3">
+		<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="Email">
+		<label class="floatingInput">Email</label>
+	</div>
+<div class="input-group mb-3">
+  <span class="input-group-text text-center">@</span>
+  <div class="form-floating">
+    <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username" name="Username">
+    <label for="floatingInputGroup1">Username</label>
+  </div>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="Password">
+  <label for="floatingPassword">Password</label>
+</div><br>
+<strong><u>Birth-Day:</u></strong><br>
+<input type="date" name="Birth-Day"><br>
+<br>
+<strong><u>Nationality:</u></strong><br>
+<select class="nationality">
+	<option value="#" name="Nationality"></option>
+	<option value="Nigeria" name="Nationality">Nigeria</option>
+	<option value="USA" name="Nationality">USA</option>
+	<option value="UK" name="Nationality">UK</option>
+	<option value="Canada" name="Nationality">Canada</option>
+	<option value="Egypt" name="Nationality">Egypt</option>
+	<option value="SouthAfrica" name="SouthAfrica">USA</option>
+	<option value="Ghana" name="Nationality">Ghana</option>
+	<option value="China" name="Nationality">China</option>
+	<option value="Germany" name="Nationality">Germany</option>
+	<option value="Brazil" name="Nationality">Brazil</option>
+	<option value="Japan" name="Nationality">Japan</option>
+	<option value="Spain" name="Nationality">Spain</option>
+	<option value="Russia" name="Nationality">Russia</option>
+	<option value="Denmark" name="Nationality">Denmark</option>
+	<option value="Australia" name="Nationality">Australia</option>
+</select><br>
+<br>
+<strong><u>Gender:</u></strong><br>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" name="Gender">
+  <label class="form-check-label" for="flexRadioDefault1">
+       Male
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" name="Gender" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+       Female
+  </label>
+</div>
+  <div class="form-check">
+  	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" name="Gender">
+  	<label class="form-check-label" for="flexRadioDefault3">
+  		Other
+  	</label>
+  </div>
+  <div class="form-floating mb-3">
+		<input type="text" class="form-control" id="floatingInput" placeholder="text" name="Gender:Other">
+		<label class="floatingInput">If other, please specify</label>
+	</div><br>
+<strong><u>Pets:</u></strong>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="Pets">
+  <label class="form-check-label" for="flexCheckDefault">
+    Cat
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="Pets" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Dog
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="Pets">
+  <label class="form-check-label" for="flexCheckDefault">
+    Others
+  </label>
+</div>
+  <div class="form-floating mb-3">
+		<input type="text" class="form-control" id="floatingInput" placeholder="text" name="Pets:Others">
+		<label class="floatingInput">If others, please specify</label>
+	</div>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<p class="buffer"></p>
+</form>
+</body>
+<footer>
+</footer>
+</html>

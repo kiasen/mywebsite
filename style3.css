@@ -1,0 +1,57 @@
+body{
+	border: 3px solid #;
+	max-width: 300px;
+	border-width: 2px;
+	height: 100%;
+	width: 100%;
+	margin-top: 250px;
+	font-family: georgia;
+	color: lightcoral;
+	background: url(ak2.jpg)no-repeat center center fixed ;
+	background-size: cover;
+
+}
+
+.mb-3{
+ width: 80%;
+ margin: 10px 5px 0px 10px;
+}
+.form-floating{
+	width: 80%;
+	margin: 10px 0px 0px 10px;
+}
+.input-group-text{
+	margin: 10px 0px 0px 10px;
+}
+button{
+	margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+	color: floralwhite;
+	font-size: 17px;
+	font-family: georgia;
+	font-weight: 500;
+}
+.btn-xl{
+	border-radius: 300px;
+	font-weight: 700;
+}
+.container{
+	max-width: 50%;
+	height: 100%;
+}
+.home{
+	color: white;
+	font-weight: 700;
+	font-family: monospace;
+	font-size: 20px;
+}
+.btn-primary{
+	background-color: lightcoral;
+	border-color: lightcoral;
+}
+.btn-primary:hover{
+	background-color: lightcoral;
+	border-color: lightcoral;
+}
